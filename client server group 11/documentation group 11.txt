@@ -1,0 +1,74 @@
+TITLE OF OUR SYSTEM IS : travel ticketing system
+we are group 11 from huye campus , CBE college, bussness school and BIT department group 1 class !
+
+			Names: DUSABE JOLLY    221003422
+			ISENGWE OLGA           221010320
+			IRADUKUNDA BENJAMIN    221018380
+			GISA BARERA EMERY      221008060
+			HAKUZIMANA CEDRICK     221017990
+			ISHIMWE LYDIA          221025238
+
+
+__________We designed this system refering to popular ticketing systems in Rwanda like RITCO,HORIZONS,....
+
+This system used by two different users including admin and agent(normal users) day to day workers  
+and every user will have their own controls according to its type. 
+
+____________________________________________________________________START  OF ADMIN ACCESS
+
+Admin will allowed to use system  throuth the login form and his cridatios is hard coded 
+(username: admin and password:admin ) 
+and do different activities including the following
+
+•Admin can view different statistics in numbers as shown in bellow screenshoot
+ after login  where there is number of buses in company, number of users,number of directions in company,…(home menu)
+
+
+•Admin can add buses
+As menus showed admin have access to add and modify campany buses which used to assing to any jurney(route)
+ before agent/user cut ticket to clients()customers.
+
+•Admin can add and modify company directions and give amount of many to that directions
+
+•Admin can add/modify jurney(route) to make it clear route is setted over the time but direction is fixed ,
+ means while we create route(journey) admin need to assign direction,time,buss to that route in order to make 
+agent easy for cut ticket to client
+
+•Admin can also add and modify agents/user and give username and password
+•Admin can also view report for amount and ticket buyed day to day (by seraching dates(day))
+User (agent) 
+
+____________________________________________________________________END OF ADMIN ACCESS
+
+
+User/ agent is one who has responsible to cut ticket to any customers as we know for
+ any travering agency(Horizon,ritco,…)
+
+____________________________________________________________________START OF AGENT/USER ACCESS
+He can do the following in our system
+•Firstly he/she have to login with cridentos given by admin 
+•After login he has to search route available jurnel added by admin add record customer ticket 
+by adding  that route id coresponding to  customer (route) he/she wishe after record it the system 
+will display ticket information and print it !
+
+
+____________________________________________________________________END  OF AGENT/USER ACCESS
+
+
+
+REMINDER
+1.admin has hardcoded cridatios to login (username:admin, password:admin) 
+ while admin has to record agent/users and give them cridentos used to login
+
+2 our server name to connect to exported database is (cit\sqlexpress)
+database name is exported and its name is ticket
+
+our connection string 
+"Data Source=cit\sqlexpress;Initial Catalog=ticket;Integrated Security=True"
+
+
+
+our system define it self we design it by allowing any user to use it without any difficulties ! as we have phisical 
+presentation we will be happy to explain more about out system !!   
+
+____________________THANK YOU FOR KNOLEDGE AND SKILLS __________________
